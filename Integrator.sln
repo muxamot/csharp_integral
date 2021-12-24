@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 15 for Windows Desktop
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrator", "Integrator\Integrator.csproj", "{852CD361-D644-4574-B4C7-39FA36A416D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegratorUnitTests", "IntegratorUnitTests\IntegratorUnitTests.csproj", "{CE8A45DA-D6E1-41A3-B818-3D451F71BD9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{852CD361-D644-4574-B4C7-39FA36A416D4} = {852CD361-D644-4574-B4C7-39FA36A416D4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{852CD361-D644-4574-B4C7-39FA36A416D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852CD361-D644-4574-B4C7-39FA36A416D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852CD361-D644-4574-B4C7-39FA36A416D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852CD361-D644-4574-B4C7-39FA36A416D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8A45DA-D6E1-41A3-B818-3D451F71BD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8A45DA-D6E1-41A3-B818-3D451F71BD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8A45DA-D6E1-41A3-B818-3D451F71BD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8A45DA-D6E1-41A3-B818-3D451F71BD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FF8F6BF-70CB-48AE-A95C-62B3618FC328}
+	EndGlobalSection
+EndGlobal

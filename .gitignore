@@ -1,0 +1,7 @@
+packages/*
+TestResult/*
+IntegratorUnitTests/bin/*
+IntegratorUnitTests/obj/*
+Integrator/bin/*
+Integrator/obj/*
+.vs
